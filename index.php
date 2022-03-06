@@ -9,6 +9,21 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        .campoObrigatorio {
+            color: red;
+            font-size: 12px;
+        }
+
+        .erroInput {
+            border: 1px solid red;
+        }
+
+        .campoPreenchido {
+            border: 1px solid green;
+        }
+    </style>
 </head>
 
 <body>
@@ -113,22 +128,8 @@
         crossorigin="anonymous"></script>
     <noscript>Atualize seu navegador</noscript>
 
-    <style>
-        .campoObrigatorio {
-            color: red;
-            font-size: 12px;
-        }
 
-        .erroInput {
-            border: 1px solid red;
-        }
-
-        .campoPreenchido {
-            border: 1px solid green;
-        }
-    </style>
-
-    <script type="text/javascript">
+    <script>
         $(document).ready(function () {
 
             var erro = 0;
